@@ -7,5 +7,6 @@
 			<attribute name="annotationpath" value="C:/Users/testuser/Downloads/mysql-connector-java-5.1.47.zip"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/testuser/Desktop/workspace/workspace-azuma/test/mysql-connector-java-5.1.46.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
