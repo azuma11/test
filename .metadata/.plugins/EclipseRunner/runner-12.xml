@@ -4,6 +4,8 @@
 <launchConfiguration bookmark="false" name="Android"/>
 <launchConfiguration bookmark="false" name="Capsule"/>
 <launchConfiguration bookmark="false" name="CheckLoadJDBC"/>
+<launchConfiguration bookmark="false" name="CheckLoadJDBC (1)"/>
+<launchConfiguration bookmark="false" name="HelloServlet"/>
 <launchConfiguration bookmark="false" name="HelloWorld"/>
 <launchConfiguration bookmark="false" name="Human"/>
 <launchConfiguration bookmark="false" name="Iphone"/>
@@ -13,5 +15,7 @@
 <launchConfiguration bookmark="false" name="SetSample"/>
 <launchConfiguration bookmark="false" name="Test"/>
 <launchConfiguration bookmark="false" name="Test (1)"/>
+<launchConfiguration bookmark="false" name="Tomcat.1"/>
+<launchConfiguration bookmark="false" name="ローカル・ホスト の Tomcat8 (Java8)"/>
 </category>
 </runner>
