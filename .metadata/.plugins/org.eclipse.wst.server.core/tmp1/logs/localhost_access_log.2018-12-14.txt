@@ -1,0 +1,7 @@
+127.0.0.1 - - [14/Dec/2018:20:27:35 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:20:27:38 +0900] "GET /WebProj/ HTTP/1.1" 200 820
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:20:27:40 +0900] "POST /WebProj/WelcomeAction.action HTTP/1.1" 200 10654
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:20:28:10 +0900] "POST /WebProj/WelcomeAction.action HTTP/1.1" 200 974
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:20:31:59 +0900] "GET /WebProj/ HTTP/1.1" 200 820
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:20:32:00 +0900] "POST /WebProj/WelcomeAction.action HTTP/1.1" 200 974
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:20:32:03 +0900] "POST /WebProj/LoginAction.action HTTP/1.1" 200 279

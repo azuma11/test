@@ -1,9 +1,7 @@
 package com.internousdev.webproj.action;
-
-public class InquiryAction {
-
-	public InquiryAction() {
-		// TODO 自動生成されたコンストラクター・スタブ
+import com.opensymphony.xwork2.ActionSupport;
+public class InquiryAction extends ActionSupport{
+	public String execute(){
+		return SUCCESS;
 	}
-
 }

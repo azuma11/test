@@ -1,9 +1,16 @@
 package com.internousdev.webproj.action;
-
-public class InquiryCompleteAction {
-
-	public InquiryCompleteAction() {
-		// TODO 自動生成されたコンストラクター・スタブ
+import com.opensymphony.xwork2.ActionSupport;
+public class InquiryCompleteAction extends ActionSupport{
+	private String name;
+	private String qtype;
+	private String body;
+	public String execute(){
+		return SUCCESS;
 	}
-
+	public String getName(){
+		return name;
+	}
+	public void setName(String name){
+		this.name=name;
+	}
 }
