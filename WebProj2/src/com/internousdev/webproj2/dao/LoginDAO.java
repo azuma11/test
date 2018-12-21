@@ -8,7 +8,7 @@ import com.internousdev.webproj2.util.DBConnector;
 public class LoginDAO {
 	public String username;
 	public String password;
-	public boolean select(String username,String passoword){
+	public boolean select(String username,String password){
 		boolean ret=false;
 		DBConnector db=new DBConnector();
 		Connection con=db.getConnection();
