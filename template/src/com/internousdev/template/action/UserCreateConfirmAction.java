@@ -12,7 +12,17 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 	private String errorMessage;
 	public String execute() {
 		String result = SUCCESS;
-		if(!(loginUserId.equals(""))    && !(loginPassword.equals(""))    && !(userName.equals(""))) { session.put("loginUserId", loginUserId); session.put("loginPassword", loginPassword); session.put("userName", userName); } else { setErrorMessage("未⼊⼒の項⽬があります。"); result = ERROR; } return result;
+		if(!(loginUserId.equals(""))
+				&& !(loginPassword.equals(""))
+				&& !(userName.equals(""))) {
+			session.put("loginUserId", loginUserId);
+			session.put("loginPassword", loginPassword);
+			session.put("userName", userName);
+			} else {
+				setErrorMessage("未入力の項目があります。");
+				result = ERROR;
+				}
+		return result;
 	}
 	public String getLoginUserId() {
 		return loginUserId;
